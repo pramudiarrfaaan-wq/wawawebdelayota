@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfd8e3;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #4e7ea8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    background-color: #5f8fb8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: #4e7ea8;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    background-color: #eee;
+    padding: 20px;
+}
+
+/* Main kiri */
+.main {
+    width: 70%;
+}
+
+.card {
+    border: 1px solid #5f8fb8;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.card button {
+    padding: 5px 10px;
+}
+
+/* Sidebar kanan */
+aside {
+    width: 30%;
+    padding-left: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    color: blue;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #4e7ea8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
